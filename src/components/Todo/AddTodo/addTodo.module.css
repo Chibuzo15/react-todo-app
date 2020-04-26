@@ -1,0 +1,36 @@
+.Title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.FormLabel{
+    font-size: 20px;
+    display: block;
+    margin: 10px
+}
+
+input{
+    margin-left: 10px;
+    height: 20px
+}
+
+
+.Form{
+    border: 1px solid #cecece;
+    background-color: #FFCA7D;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #cecece;
+}
+
+@media screen and (min-width: 500px){
+    .Form{
+        width:70vw;
+    }
+
+    input[type="text"]{
+        width: 50%;
+    }
+}

@@ -1,0 +1,15 @@
+.Title {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b14821
+}
+
+@media screen and (min-width: 500px){
+    .Title {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+}

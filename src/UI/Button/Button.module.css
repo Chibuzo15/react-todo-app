@@ -1,0 +1,23 @@
+.Success{
+    background-color: #b14821;
+    border: 1px solid #773f10;
+}
+
+.Delete{
+    background-color: black;
+    color: white;
+    margin-top: 0px !important;
+    margin-bottom: 15px !important;
+}
+
+.Button{
+    width: 150px;
+    padding: 3px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 500px){
+    .Button{
+        width: 150px;
+    }
+}
